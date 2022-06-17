@@ -1,1 +1,148 @@
-@import "reset.css";
+body {
+    width:700px;
+    margin:auto;
+    color:#525252;
+}
+
+main p {
+    text-indent: 50px;
+}
+
+header {
+    display:flex;
+    margin:auto;
+    align-items: center;
+}
+
+h1 {
+    line-height: 1;
+}
+
+.logo {
+    display:flex;
+    flex-direction: row;
+    margin:10px;
+    /* height:150px; */
+}
+
+.logo img {
+    width:76px;
+}
+
+.tagline {
+    display:block;
+}
+
+.best {
+    margin:3px 0 0 3px;
+    font-size:8pt;
+}
+
+.fancy {
+    font-family:'Pacifico',serif;
+    font-size:36pt;
+    margin:0;
+    line-height:1;
+}
+
+.socials {
+    display:flex;
+    flex-direction: row;
+    margin-left:190px;
+}
+
+.socials img {
+    margin:2px;
+}
+
+.print {
+    display:flex;
+    flex-direction: row;
+    margin-left:8px;
+}
+
+.sans {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.light {
+    color:gray;
+}
+
+.right {
+    float:right;
+}
+
+.print img {
+    margin:2px;
+}
+
+.border {
+    height:15px;
+    width:100%;
+    background-image: url(img/hr-img.png);
+}
+
+ul {
+    /* height:100px; */
+    background-image: url(img/list-bg.png);
+    columns:2;
+    list-style-type:none;
+}
+
+li {
+    font-family: 'Kalam',sans-serif;
+}
+
+.complete {
+    text-decoration: line-through;
+}
+
+
+/* image in hr: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr */
+hr {
+    border: none;
+    border-top: 3px solid #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 3px;
+}
+
+hr:after {
+    background: #fff;
+    content: url(img/small-logo.png);
+    position: relative;
+    top: -18px;
+}
+
+a {
+    background-color:rgb(145, 73, 32);
+    color:white;
+    text-decoration: none;
+    padding:10px;
+    margin-left:170px;
+}
+
+.bio {
+    display:flex;
+    align-items:center;
+}
+
+.bio p {
+    width:350px;
+}
+
+.copyright {
+    text-align:center;
+    font-size:8pt;
+    margin-top:20px;
+}
+
+#bio-p {
+    text-indent:0;
+}
+
+#copy-p {
+    text-indent:0;
+}
